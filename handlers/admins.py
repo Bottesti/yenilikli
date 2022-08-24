@@ -16,7 +16,7 @@ from pytgcalls.types.input_stream import InputStream
 
 ACTV_CALLS = []
 
-@Client.on_message(command(["durdur", "pause"]) & other_filters)
+@Client.on_message(command(["afasddudrdur", "padsauadsse"]) & other_filters)
 @errors
 @authorized_users_only
 async def durdur(_, message: Message):
@@ -27,7 +27,7 @@ async def durdur(_, message: Message):
     
 
 
-@Client.on_message(command(["devam", "resume"]) & other_filters)
+@Client.on_message(command(["dsdedvadm", "reasdsumde"]) & other_filters)
 @errors
 @authorized_users_only
 async def devam(_, message: Message):
@@ -38,7 +38,7 @@ async def devam(_, message: Message):
     
 
 
-@Client.on_message(command(["son", "end"]) & other_filters)
+@Client.on_message(command(["sdsaodn", "easdnsdd"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -58,7 +58,7 @@ async def stop(_, message: Message):
             "✅ **Müzik durduruldu !**\n\n• **Userbot sesli sohbet bağlantısı kesildi. !**"
         )
     
-@Client.on_message(command(["atla", "skip"]) & other_filters)
+@Client.on_message(command(["atsadcla", "sasdvkip"]) & other_filters)
 @errors
 @authorized_users_only
 async def atla(_, message: Message):
@@ -91,7 +91,7 @@ async def atla(_, message: Message):
 
 # Yetki Vermek için (ver) Yetki almak için (al) komutlarını ekledim.
 # Gayet güzel çalışıyor. @Mahoaga Tarafından Eklenmiştir. 
-@Client.on_message(command("ver") & other_filters)
+@Client.on_message(command("vasdvder") & other_filters)
 @authorized_users_only
 async def authenticate(client, message):
     global admins
@@ -107,7 +107,7 @@ async def authenticate(client, message):
         await message.reply("✔ Kullanıcı Zaten Yetkili!")
 
 
-@Client.on_message(command("al") & other_filters)
+@Client.on_message(command("aasvsdakl") & other_filters)
 @authorized_users_only
 async def deautenticate(client, message):
     global admins
@@ -124,7 +124,7 @@ async def deautenticate(client, message):
 
 
 # Sesli sohbet için 0-200 arası yeni komut eklenmiş oldu. 
-@Client.on_message(command(["ses"]) & other_filters)
+@Client.on_message(command(["sdceascs"]) & other_filters)
 @authorized_users_only
 async def change_ses(client, message):
     range = message.command[1]
@@ -135,7 +135,7 @@ async def change_ses(client, message):
     except Exception as e:
        await message.reply(f"**hata:** {e}")
 
-@Client.on_message(command("reload") & other_filters)
+@Client.on_message(command("rdascelascoad") & other_filters)
 @errors
 @authorized_users_only
 async def update_admin(client, message):
