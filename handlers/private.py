@@ -5,7 +5,7 @@ from config import BOT_USERNAME, BOT_NAME as bot
 from helpers.filters import command, other_filters2
 # EfsaneMusicVaves tarafından düzenlendi. 
 
-@Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
+@Client.on_message(command(["asdfrt", f"asdftart@{BOT_USERNAME}"]))
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://images.app.goo.gl/MTLXTSDCA4MLHScP7",
@@ -14,23 +14,10 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🎉 ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ 🎉", url=f"https://t.me/MajesteMusicProBot?startgroup=true"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🇹🇷 ᴀsɪsᴛᴀɴ", url="https://t.me/MajesteMusicAsistan"
-                    ),
-                    InlineKeyboardButton(
-                        "📝 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/MajesteSahip"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
                         "📚 ᴋᴏᴍᴜᴛʟᴀʀ" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "📝 ᴋᴀɴᴀʟ", url=f"https://t.me/MajesteBotlar"
+                        "📝 ᴋᴀɴᴀʟ", url=f"https://t.me/Octopus_Game"
                     )
                 ]
                 
@@ -40,7 +27,7 @@ async def start(_, message: Message):
   
 
 
-@Client.on_message(command(["bilgi", f"bilgi@{BOT_USERNAME}"]))
+@Client.on_message(command(["biasdgaslgi", f"biafsdfalgi@{BOT_USERNAME}"]))
 async def bilgi(_, message: Message):
       await message.reply_text("● **ɴᴏᴛ :\n\n ʙᴏᴛᴜɴ ᴀᴋᴛɪғ ᴄ̧ᴀʟɪşᴍᴀsɪ ɪᴄ̧ɪɴ sᴜ ᴜᴄ ʏᴇᴛᴋɪʏᴇ ɪʜᴛɪʏᴀᴄɪ ᴠᴀʀᴅɪʀ :\n\n> 𝖬𝖾𝗌𝖺𝗃𝗅𝖺𝗋𝗂 𝖲𝗂𝗅𝗆𝖾 ,\n> 𝖡𝖺𝗀𝗅𝖺𝗇𝗍𝗂 𝖣𝖺𝗏𝖾𝗍 𝖤𝗍𝗆𝖾 ,\n> 𝖲𝖾𝗌𝗅𝗂 𝖲𝗈𝗁𝖻𝖾𝗍 𝖸𝗈𝗇𝖾𝗍𝗆𝖾 ,**", 
       reply_markup=InlineKeyboardMarkup(
